@@ -32,6 +32,8 @@ namespace AgendaDio.Areas.Contatos.Models
 
         public DateTime DataModificacao { get; set; }
 
+        public bool Favorito { get; set; }
+
         public string FotoUrl { get; set; }
 
         [NotMapped]
